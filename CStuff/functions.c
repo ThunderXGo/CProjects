@@ -1,13 +1,12 @@
 #include <stdio.h>
-#include <cs50.h>
 
-void name(string fname){
+void name(char* fname) {
     printf("%s Tran \n", fname);
 }
 
 int main(void)
 {
-name("Peter");
-name("Julia");
-return 0;
+    name("Peter");
+    name("Julia");
+    return 0;
 }
